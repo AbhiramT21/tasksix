@@ -22,8 +22,8 @@ Capture and analyze ICMP packets using Wireshark in Kali Linux, ensuring only fo
 4. **Observe Packets in Wireshark:**
    - Go back to Wireshark.
    - In the packet list pane, look for ICMP packets. You should see:
-     - Four ICMP Echo Request packets.
-     - Four ICMP Echo Reply packets.
+     - Four ICMP Echo Request packets (Type 8).
+     - Four ICMP Echo Reply packets (Type 0).
 
 5. **Verify Packet Count:**
    - Ensure that the capture shows exactly four ICMP requests and four ICMP responses.
@@ -35,16 +35,20 @@ Capture and analyze ICMP packets using Wireshark in Kali Linux, ensuring only fo
 7. **Save the Capture:**
    - Go to **File > Save As** in Wireshark.
    - Save the file with the name `ping.pcapng`.
+     ```
 
-## Notes
-- Use the display filter `icmp` in Wireshark to isolate ICMP packets.
-
-## Working with GitHub Repository
-
-1. **Clone the Repository:**
-   - If you need to clone the repository containing scripts or configurations related to this task, use:
+9. **Clone the Repository (if applicable):**
+   - If you need to clone a repository containing scripts or configurations related to this task, use:
      ```bash
      git clone https://github.com/AbhiramT21/tasksix.git
      cd tasksix
      ```
-     
+
+10. **Open the Capture in Wireshark (Optional):**
+    - To review the uploaded capture file from the `tasksix` folder, use:
+      ```bash
+      wireshark ping.pcapng
+      ```
+
+## Notes
+- Use the display filter `icmp` in Wireshark to isolate ICMP packets.
