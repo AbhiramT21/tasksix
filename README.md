@@ -24,7 +24,7 @@ Capture and analyze ICMP packets using Wireshark in Kali Linux, ensuring only fo
      cd tasksix
      ```
 
-2. **Open the Capture in Wireshark (Optional):**
+2. **Open the Capture in Wireshark:**
    - To review the uploaded capture file from the `tasksix` folder, use:
      ```bash
      wireshark ping.pcapng
