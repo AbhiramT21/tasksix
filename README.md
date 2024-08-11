@@ -6,7 +6,7 @@ Capture and analyze ICMP packets using Wireshark in Kali Linux, ensuring only fo
 ## Instructions
 
 1. **Open Wireshark:**
-   - Launch Wireshark from the applications menu or by typing `wireshark` in the terminal.
+   - Launch Wireshark from the applications menu.
 
 2. **Start Packet Capture:**
    - Select the network interface `eth0` from the list of available interfaces.
