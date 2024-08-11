@@ -10,7 +10,7 @@ Capture and analyze ICMP packets using Wireshark in Kali Linux, ensuring only fo
 
 2. **Start Packet Capture:**
    - Select the network interface `eth0` from the list of available interfaces.
-   - Click the **Start Capturing Packets** button (shaped like a shark fin).
+   - Click the **Start Capturing Packets** button.
 
 3. **Ping Google:**
    - Open a terminal window.
@@ -22,20 +22,19 @@ Capture and analyze ICMP packets using Wireshark in Kali Linux, ensuring only fo
 4. **Observe Packets in Wireshark:**
    - Go back to Wireshark.
    - In the packet list pane, look for ICMP packets. You should see:
-     - Four ICMP Echo Request packets (Type 8).
-     - Four ICMP Echo Reply packets (Type 0).
+     - Four ICMP Echo Request packets.
+     - Four ICMP Echo Reply packets.
 
 5. **Verify Packet Count:**
    - Ensure that the capture shows exactly four ICMP requests and four ICMP responses.
    - Use Wireshark's filter `icmp` to focus on ICMP packets only.
 
 6. **Stop Capture:**
-   - Once you have observed the packets, click the **Stop Capturing Packets** button (red square).
+   - Once you have observed the packets, click the **Stop Capturing Packets** button.
 
 7. **Save the Capture:**
    - Go to **File > Save As** in Wireshark.
    - Save the file with the name `ping.pcapng`.
-     ```
 
 9. **Clone the Repository (if applicable):**
    - If you need to clone a repository containing scripts or configurations related to this task, use:
